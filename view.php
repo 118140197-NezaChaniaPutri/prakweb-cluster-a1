@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Isi Buku Tamu</title>
+</head>
+<body>
+	<h1>Isi Buku Tamu</h1>
+	<?php
+	$conn = mysqli_connect("localhost","root","");
+	mysqli_select_db($conn, "tamu");
+	$hasil = mysqli_query($conn, "select * from bukutamu");
+	$jumlah = mysqli_num_rows($hasil);
+	echo "<center>Daftar Pengunjung</center>";
+	echo "Jumlah pengunjung : $jumlah";
+	$a=1;
+	while($baris = mysqli_fetch_array($hasil))
+	{
+		echo "<br>";
+		echo $a;
+		echo "<br>"; echo "Nama      : "; 
+		echo $baris[0]; 
+		echo "<br>";
+		echo "Email     : ";
+		echo $baris[1];
+		echo "<br>";
+		echo "Komentar  : ";
+		echo $baris[2];
+		$a++;
+	}
+
+?>
+</body>
+</html>
