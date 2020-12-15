@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<dataDiri>
+	<nama>Neza Chania Putri</nama>
+	<saudara>"4 Bersaudara"</saudara>
+	<nim>"118140197"</nim>
+	<jenisKelamin>Perempuan</jenisKelamin>
+	<umur>"20 Tahun"</umur>
+	<hobby>Editing Video and Photo</hobby>
+
+	<orangtua>
+		<ayah>Desrizal</ayah>
+		<pekerjaan>TNI-AD</pekerjaan>
+		<ibu>Nelly</ibu>
+		<pekerjaan>IRT</pekerjaan>
+	</orangtua>
+
+	<alamat>
+		<rumah>Perum Bilabong Blok F3 No 30</Rumah>
+		<kelurahan>Bilabong Jaya</kelurahan>
+		<kecamatan>Langkapura</kecamatan>
+		<Kabupaten>Bandar Lampung</Kabupaten>
+	</alamat>
+
+	<socialmedia>
+		<instagram>zachaptr</instagram>
+		<line>zachaptr</line>
+		<github>118140197-NezaChaniaPutri</github>
+	</socialmedia>
+
+	<pendidikan>
+		<tk>TK Kartika II-31</tk>
+		<sd>SDN 1 Susunan Baru</sd>
+		<smp>SMP Kartika II-2</smp>
+		<sma>SMAN 1 Bandar Lampung</sma>
+</dataDiri>
+
